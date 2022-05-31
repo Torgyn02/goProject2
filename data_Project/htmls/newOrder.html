@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Order</title>
+    <link rel="stylesheet" type="text/css" href="/css/login.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <style>
+        #login {
+            height: auto;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div id="bottom-nav">
+        <ul><a href="/"><img src="/header/logotype.png" width="100"></a></ul>
+        <ul class="nonli">
+            <li><a class="menu" href="/">HOME</a></li>
+        </ul>
+        <ul class="nonli">
+            {{ if eq .Type "" }}
+            <li><a class="nonactive" href="/signup/">Sign up</a></li>
+            <li><a class="nonactive" href="/signin/">Sign in</a></li>
+            {{ else if eq .Type "weeb" }}
+            <li><a class="active" href="/signout">Sign out</a></li>
+            {{ else if eq .Type "god" }}
+            <li><a class="active" href="/signout">Sign out</a></li>
+            {{ end }}
+        </ul>
+    </div>
+</header>
+<div id="login">
+    {{ if eq .Type "weeb" }}
+    <form id="signinform" action="/newOrder" method="post">
+        <fieldset>
+            <legend>New  form</legend>
+            <div class="line">
+                <div class="label"><label>Client Id:</label></div>
+                <input type="text" name="clientId" placeholder="clientId" required="required">
+            </div>
+            <div class="line">
+                <div class="label"><label>Addrees:</label></div>
+                <input type="text" name="address" placeholder="address" required="required">
+            </div>
+            <div class="line">
+                <div class="label"><label>Company Name:</label></div>
+                <input type="text" name="companyName" placeholder="companyName" required="required">
+            </div>
+            <div class="line">
+                <div class="label"><label>Country:</label></div>
+                <input type="text" name="country" placeholder="country" required="required">
+            </div>
+            <div class="line">
+                <div class="label"><label>Phone Number:</label></div>
+                <input type="text" name="phoneNumber" placeholder="phoneNumber" required="required">
+            </div>
+            <div class="line">
+                <div class="label"><label>Your name:</label></div>
+                <input type="text" name="clientName" placeholder="clientName" required="required">
+            </div>
+            <div class="line">
+                <div class="label"><label>Project description:</label></div>
+                <input type="text" name="projectDes" placeholder="projectDes" required="required">
+            </div>
+            <div class="line"><input type="submit" id="signupBtn" value="Create"></div>
+        </fieldset>
+        <img src="/header/logo1.png" height="375px">
+    </form>
+    {{ else }}
+    {{ end }}
+</div>
+<footer>
+    <div>
+        <ul class="top-footer">
+            <a href="/">
+                <li>About us</li>
+            </a>
+            <a href="/">
+                <li>FAQ</li>
+            </a>
+            <a href="/">
+                <li>Contacts</li>
+            </a>
+        </ul>
+    </div>
+    <div>
+        <ul class="bottom-footer">
+            <li>&copy Torgyn Muratovna</li>
+            <li>&copy Muslima Abayqyzy</li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>

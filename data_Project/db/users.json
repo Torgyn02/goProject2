@@ -1,0 +1,47 @@
+[
+ {
+  "name": "torgyn",
+  "password": "torgyn123",
+  "type": "god"
+ },
+ {
+  "name": "muslima",
+  "password": "muslima123",
+  "type": "god"
+ },
+ {
+  "name": "ako",
+  "password": "ako123",
+  "type": "weeb"
+ },
+ {
+  "name": "kira",
+  "password": "kira123",
+  "type": "weeb"
+ },
+ {
+  "name": "dlkhf",
+  "password": "zxcvbnm,",
+  "type": "weeb"
+ },
+ {
+  "name": "Darkhan",
+  "password": "123",
+  "type": "weeb"
+ },
+ {
+  "name": "akzhaol",
+  "password": "123456",
+  "type": "weeb"
+ },
+ {
+  "name": "marat",
+  "password": "employee",
+  "type": "emp"
+ },
+ {
+  "name": "Rakhat",
+  "password": "employee",
+  "type": "emp"
+ }
+]

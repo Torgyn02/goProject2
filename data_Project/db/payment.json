@@ -1,0 +1,16 @@
+[
+ {
+  "paymentId": "3000",
+  "projectId": "4000",
+  "ammount": "450000",
+  "creditCard": "asdfghjkl",
+  "clientIDP": "2000"
+ },
+ {
+  "paymentId": "3016",
+  "projectId": "4016",
+  "ammount": "450000",
+  "creditCard": "weayrstkrjt",
+  "clientIDP": "2007"
+ }
+]

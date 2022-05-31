@@ -1,0 +1,58 @@
+[
+ {
+  "employeeId": "1",
+  "firstName": "Aktorgyn",
+  "lastName": "Nassyr",
+  "adress": "Aksai 1",
+  "phoneNumber": "87086976337",
+  "tariffRate": "100000000000"
+ },
+ {
+  "employeeId": "1003",
+  "firstName": "Assem",
+  "lastName": "Meldebekova",
+  "adress": "Tole bi",
+  "phoneNumber": "83651234562",
+  "tariffRate": "45000"
+ },
+ {
+  "employeeId": "5",
+  "firstName": "Assem",
+  "lastName": "Meldebekova",
+  "adress": "Tole bi",
+  "phoneNumber": "87586931254",
+  "tariffRate": "full_time"
+ },
+ {
+  "employeeId": "2",
+  "firstName": "hgjfr",
+  "lastName": "jffsg",
+  "adress": "iiseig",
+  "phoneNumber": "4541216645412",
+  "tariffRate": "bkdhjg"
+ },
+ {
+  "employeeId": "6",
+  "firstName": "wytrj",
+  "lastName": "ezutrjdt",
+  "adress": "drhesthr",
+  "phoneNumber": "8551656565",
+  "tariffRate": "ethsdth"
+ },
+ {
+  "employeeId": "9",
+  "firstName": "fghertje",
+  "lastName": "thrwtht",
+  "adress": "hrthrteh",
+  "phoneNumber": "552115448454",
+  "tariffRate": "rhyrtyrt"
+ },
+ {
+    "employeeId": "9",
+    "firstName": "Rakhat",
+    "lastName": "thrwtht",
+    "adress": "hrthrteh",
+    "phoneNumber": "552115448454",
+    "tariffRate": "rhyrtyrt"
+   }
+]

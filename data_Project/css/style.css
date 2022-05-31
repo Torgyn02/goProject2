@@ -1,0 +1,344 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v23/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSWaA.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Ew-.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v24/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew-.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v23/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSWaA.ttf) format('truetype');
+  }
+  body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: black;
+    background-color: #f9f8f5;
+  }
+  .wrapper .part1 {
+    z-index: 3;
+    height: 650px;
+  }
+  .wrapper .part1 .sec1 {
+    width: 80%;
+    margin: 35px auto;
+    position: relative;
+  }
+  .wrapper {
+    color: black;
+  }
+  .wrapper .part1 .sec1 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .wrapper .part1 .sec1 .text {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+  }
+  .wrapper .part1 .sec1 .text h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 60px;
+    float: left;
+  }
+  .wrapper .part1 .sec1 .text h5 {
+    font-size: 25px;
+    float: left;
+  }
+  .wrapper .part1 .sec1 img {
+    margin-top: 80px;
+    padding-top: 100px;
+    width: 150px;
+    width: 55%;
+    float: left;
+  }
+  .clear {
+    clear: both;
+  }
+  .wrapper .part2 .sec2 {
+    width: 80%;
+    margin: 35px auto;
+    position: relative;
+    text-align: center;
+  }
+  .wrapper .part2 .sec2 h1 {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    margin: 60px auto;
+  }
+  .wrapper .part2 .sec2 table tr td {
+    margin-top: 30px;
+    padding: 15px 45px;
+  }
+  .wrapper .part2 .sec2 table tr td img {
+    width: 200px;
+  }
+  .clear {
+    clear: both;
+  }
+  footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 30px;
+  }
+  footer .sec3 {
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  footer .sec3 ul {
+    list-style: none;
+  }
+  footer .sec3 ul li {
+    display: inline;
+    padding: 10px 30px;
+    font-size: 18px;
+  }
+  footer .sec3 ul a {
+    text-decoration: none;
+    color: #f9f8f5;
+  }
+  footer .sec4 {
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+  }
+  footer .sec4 ul {
+    list-style: none;
+  }
+  footer .sec4 ul li {
+    display: inline;
+    padding: 20px 20px;
+    font-size: 12px;
+  }
+
+  .client .cpart1 {
+    z-index: 3;
+    height: 650px;
+  }
+  .client .cpart1 .csec1 {
+    width: 80%;
+    margin: 35px auto;
+    position: relative;
+  }
+  .client {
+    color: black;
+  }
+  .client .cpart1 .csec1 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .client .cpart1 .csec1 .text {
+    padding-top: 20px;
+    width: 45%;
+    float: left;
+  }
+  .client .cpart1 .csec1 .text h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    float: left;
+  }
+  .client .cpart1 .csec1 .text h5 {
+    font-size: 25px;
+    float: left;
+  }
+  .client .cpart1 .csec1 .text input {
+    background-color: #059BFC;
+    width: 150px;
+    height: 50px;
+    border-radius: 5%;
+  }
+  .client .cpart1 .csec1 img {
+    margin-top: 80px;
+    padding-top: 100px;
+    width: 150px;
+    width: 55%;
+    float: left;
+  }
+  .clear {
+    clear: both;
+  }
+  .client .cpart2 {
+    background-color: black;
+    padding: 30px;
+    color: #f9f8f5;
+  }
+  .client .cpart2 hr {
+    color: #f9f8f5;
+  }
+  .client .cpart2 .csec2 {
+    width: 80%;
+    margin: 35px auto;
+    position: relative;
+  }
+  .client .cpart2 .csec2 h1 {
+    margin-top: 40px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    margin: 60px auto;
+  }
+  .client .cpart2 .csec2 table tr td {
+    margin-top: 30px;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .client .cpart2 .csec2 table tr td img {
+    width: 50px;
+  }
+  .client .cpart3 {
+    padding: 25px;
+    background-color: #f9f8f5;
+    color: black;
+  }
+  .client .cpart3 hr {
+    color: #f9f8f5;
+    width: 100px;
+  }
+  .client .cpart3 .csec3 {
+    width: 80%;
+    margin: 35px auto;
+    position: relative;
+  }
+  .client .cpart3 .csec3 h1 {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    margin: 60px auto;
+  }
+  .client .cpart3 .csec3 table tr td {
+    margin-top: 30px;
+    padding: 15px 15px;
+  }
+  .client .cpart3 .csec3 table tr td img {
+    width: 50px;
+  }
+
+  .employee .epart1 {
+    background-color: black;
+    z-index: 3;
+    height: 650px;
+  }
+  .employee .epart1 .esec1 {
+    width: 80%;
+    margin: 35px auto;
+    position: relative;
+  }
+  .employee {
+    color: #f9f8f5;
+  }
+  .employee .epart1 .esec1 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .employee .epart1 .esec1 .text {
+    padding-top: 60px;
+    width: 45%;
+    float: left;
+  }
+  .employee .epart1 .esec1 .text h1 {
+    font-size: 50px;
+    float: left;
+    margin-bottom: 100px;
+  }
+  .employee .epart1 .esec1 .text a {
+    text-decoration: none;
+    font-size: large;
+    padding: 15px;
+    width: 100px;
+    border-style: solid;
+    color: #f9f8f5;
+    margin-top: 100px;
+  }
+  .employee .epart1 .esec1 img {
+    margin-top: 80px;
+    padding-top: 100px;
+    width: 180px;
+    width: 55%;
+    float: left;
+  }
+  .clear {
+    clear: both;
+  }
+  .employee .epart2 {
+    background-color: #f9f8f5;
+    padding: 30px;
+    color: black;
+    width: 80%;
+    margin: 40px auto;
+  }
+  .employee .epart2 hr {
+    color: #f9f8f5;
+  }
+  .employee .epart2 .esec2 {
+    width: 80%;
+    margin: 35px auto;
+    position: relative;
+  }
+  .employee .epart2 .esec2 h1 {
+    margin-top: 40px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    margin: 60px auto;
+  }
+  .employee .epart2 .esec2 a {
+    margin-left: auto;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+  }
+  .employee .epart2 .esec2 hr {
+    margin-bottom: 20px;
+  }
+  .employee .epart2 .esec2 table tr td {
+    padding: 15px;
+  }
+  .employee .epart2 .esec2 img {
+    width: 200px;
+  }
+  .employee .epart2 .esec2 #button {
+    margin: 20px auto;
+    width: 300px;
+    height: 30px;
+    background-color: black;
+    color: #f9f8f5;
+  }
+  .employee .epart3 {
+    padding: 25px;
+    background-color: #f9f8f5;
+    color: black;
+  }
+  .employee .epart3 hr {
+    color: #f9f8f5;
+    width: 100px;
+  }
+  .employee .epart3 .esec3 {
+    width: 80%;
+    margin: 35px auto;
+    position: relative;
+  }
+  .employee .epart3 .esec3 h1 {
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    margin: 60px auto;
+  }
+  .employee .epart3 .esec3 table tr td {
+    margin-top: 30px;
+    padding: 15px 15px;
+  }
+  .employee .epart3 .esec3 table tr td img {
+    width: 50px;
+  }

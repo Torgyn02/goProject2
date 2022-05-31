@@ -1,0 +1,404 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/css/content.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/style.css">
+   <link rel="stylesheet" href="/css/normalize.css">
+   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+</head>
+<body>
+<header>
+    <div id="bottom-nav">
+        <ul><a href="/"><img src="/header/data1.png" width="100"></a></ul>
+        <ul class="nonli">
+            <li><a class="menu" href="/">HOME</a></li>
+        </ul>
+        <ul class="nonli">
+            {{ if eq .User.Type "" }}
+            <li><a class="nonactive" href="/signup/">Sign up</a></li>
+            <li><a class="nonactive" href="/signin/">Sign in</a></li>
+            {{ else if eq .User.Type "weeb" }}
+          
+            <li><a class="active" href="/signout">Sign out</a></li>
+            <li><a class="active" href="">Work codes</a></li>
+            <li><a class="active" href="/newOrder/">Order project</a></li>
+            {{ else if eq .User.Type "emp"}}
+            <li><a class="active" href="/signout">Sign out</a></li>
+            {{ else if eq .User.Type "god" }}
+            <li><a class="active" href="/newEmployee/">Add Employee</a></li>
+            <li><a class="active" href="/newProject/">Add Project</a></li>
+            <li><a class="active" href="/newPayment/">Payment</a></li>
+            <li><a class="active" href="/newTC/">Time card</a></li>
+            <li><a class="active" href="/updateEmp/">Update Employee</a></li>
+            <li><a class="active" href="/signout">Sign out</a></li>
+
+
+            {{ end }}
+        </ul>
+    </div>
+</header>
+
+        {{ if eq .User.Type "" }}
+        <div class="wrapper">
+            <div class="part1">
+               <section class="sec1">
+                  <div class="text">
+                     <h1><b> PROJECT ORGANIZATION</b></h1>
+      
+                     <h5>We help to get your work done. Sign up & find the best people!</h5>
+                  </div>
+      
+                  <img src="/img/08c32049e00ea00d6cafccf43ac30783.png" alt="">
+      
+                  <div class="clear"></div>
+               </section>
+            </div>
+      
+            <div class="part2">
+               <section class="sec2">
+                  <h1>Types of services</h1>
+      
+                  <table>
+                     <tr>
+                        <td>
+                           <img src="/img/video_icon.png" alt="">
+                        </td>
+                        <td>
+                           <img src="/img/coding_icon.png" alt="">
+                        </td>
+                        <td>
+                           <img src="/img/img_5433 (1).png" alt="">
+                        </td>
+                        <td>
+                           <img src="/img/data_icon.png" alt="">
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <h4>VIDEO - EDITING</h4>
+                        </td>
+                        <td>
+                           <h4>CODING</h4>
+                        </td>
+                        <td>
+                           <h4>GRAPHIC-DESIGN</h4>
+                        </td>
+                        <td>
+                           <h4>DATA - ANALYSE</h4>
+                        </td>
+                     </tr>
+                  </table>
+               </section>
+            </div>
+         </div>
+         {{else if eq .User.Type "weeb"}}
+         <div class="client">
+            <div class="cpart1">
+               <section class="csec1">
+                  <div class="text">
+                     <h1><b> WE ARE GLAD TO SEE YOU HERE</b></h1>
+      
+                     <h5>Order a project & find best performer</h5>
+                     <input type="button" value="ORDER" id="#button">
+                  </div>
+      
+                  <img src="img/client.png" alt="">
+      
+                  <div class="clear"></div>
+               </section>
+            </div>
+      
+            <div class="cpart2">
+               <section class="csec2">
+                  <h1>WHY US???</h1>
+                  <hr>
+      
+                  <table>
+                     <tr>
+                        <td>
+                           <h3>*Professionalism</h3>
+                        </td>
+                        <td>
+                           <h3>*Efficiency</h3>
+                        </td>
+                        <td>
+                           <h3>*>1000 successful projects</h3>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <p>Our employees are tested and regularly update their knowledge. They get into our organization only after full verification. The best of the best work with us, as we offer the best conditions for work.</p>
+                        </td>
+                        <td>
+                           <p>Time is the most valuable resource, we all understand this. Therefore, our employees try to do the work in the shortest possible time without losing quality.</p>
+                        </td>
+                        <td><p>Our clients are both businessmen and organizations and personal customers. The variety of orders is pleasantly surprising and in the piggy bank of our works there are many successful projects that we are proud of.</p></td>
+                     </tr>
+                  </table>
+               </section>
+            </div>
+      
+            <div class="cpart3">
+               <section class="csec3">
+                  <h1>Client reviews</h1>
+                  <hr>
+      
+                  <table>
+                     <tr>
+                        <td>
+                           <img src="img/user-profile-default-removebg-preview.png" alt="">
+                        </td>
+                        <td>
+                           <p>I wanted the work to be done quickly and efficiently. It was not always possible to explain what I imagined and wanted to see in the end. Your organization has talented and responsible employees. I recommend it to everyone!</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <img src="img/user-profile-default-removebg-preview.png" alt="">
+                        </td>
+                        <td>
+                           <p>Previously, it was difficult to find a performer for digital projects. Since not everyone works in good faith. With your organization, I can be sure of that. Thank you for the quality and professionalism.</p>
+                        </td>
+                     </tr>
+                  </table>
+               </section>
+            </div>
+         </div>
+         {{else if eq .User.Type "emp"}}
+         <div class="employee">
+            <div class="epart1">
+               <section class="esec1">
+                  <div class="text">
+                     <h1><b> WELCOME BACK! LET'S GET BACK TO WORK </b></h1>
+      
+                     <a href="projects">VIEW MY PROJECTS</a>
+                  </div>
+      
+                  <img src="/img/emp.png" alt="">
+      
+                  <div class="clear"></div>
+               </section>
+            </div>
+             <div>
+         
+            
+         <table class="table shadow ">
+         
+               <tr>
+                  <th>Project id</th>
+                  <th>Project Description</th>
+                  <th>Start Date</th>
+                  <th>Project Name</th>
+                  <th>Calculation</th>
+                  <th>End Date</th>
+                  <th>Client id</th>
+                  <th>Payment id</th>
+               </tr>
+               {{range .Projects}}
+              
+               <tr>
+                  <td> {{.ProjectId }}</td>
+                  <td>{{ .Description}}</td>
+                  <td> {{ .StartDate}}</td>
+                  <td>{{ .ProjectName}}</td>
+                  <td>{{ .Calculation}}</td>
+                  <td>{{ .EndDate}}</td>
+                  <td>{{ .ClientIdPr}}</td>
+                  <td> {{ .PaymentIdP}}</td>
+                </tr>
+               
+              
+                {{end}}
+         </table>
+      
+             </div>
+            <div class="epart2">
+               <section class="esec2">
+                
+                  <a href="project1"><b>Project 1: Book trailer</b></a>
+                  <hr>
+      
+                  <table>
+                     <tr>
+                        <td><img src="/img/project1.jpg" alt=""></td>
+                        <td><p>Design a movie-style trailer that drums up excitement about a novel or a non-fiction book.</p></td>
+                     </tr>
+                  </table>
+      
+                  <a href="project1"><b>Project 2: Promotion</b></a>
+                  <hr>
+      
+                  <table>
+                     <tr>
+                        <td>
+                           <img src="/img/project3.jpg" alt="">
+                        </td>
+                        <td>
+                           <p>Create a video advocating for a good cause. Thinking about concept, visualizing, shooting and editing video for a wide auditory.</p>
+                        </td>
+                     </tr>
+                  </table>
+      
+                  <input type="button" value="VIEW MORE" id="button">
+               </section>
+            </div>
+         </div>
+      
+         {{ else if eq .User.Type "god"}}
+
+      
+         <table class="table shadow ">
+            <h1>Projects</h1>
+               <tr>
+                  <th>Project id</th>
+                  <th>Project Description</th>
+                  <th>Start Date</th>
+                  <th>Project Name</th>
+                  <th>Calculation</th>
+                  <th>End Date</th>
+                  <th>Client id</th>
+                  <th>Payment id</th>
+               </tr>
+               {{range .Projects}}
+               <tr>
+                  <td> {{ .ProjectId }}</td>
+                  <td>{{ .Description}}</td>
+                  <td> {{ .StartDate}}</td>
+                  <td>{{ .ProjectName}}</td>
+                  <td>{{ .Calculation}}</td>
+                  <td>{{ .EndDate}}</td>
+                  <td>{{ .ClientIdPr}}</td>
+                  <td> {{ .PaymentIdP}}</td>
+                </tr>
+                {{end}}
+         </table>
+         <table class="table shadow ">
+            <h1>Employee</h1>
+               <tr>
+                  <th>Employee id</th>
+                  <th>First name</th>
+                  <th>Last name</th>
+                  <th>Adress </th>
+                  <th>Phone number</th>
+                  <th>Trariff rate</th>
+                
+               </tr>
+               {{range .Employee}}
+               <tr>
+                  <td> {{ .EmployeeId }}</td>
+                  <td>{{ .FirstName}}</td>
+                  <td> {{ .LastName}}</td>
+                  <td>{{ .Adress}}</td>
+                  <td>{{ .PhoneNumber}}</td>
+                  <td>{{ .TrariffRate}}</td>
+               
+                </tr>
+                {{end}}
+         </table>
+         <table class="table shadow ">
+            <h1>Time Cards</h1>
+               <tr>
+                  <th>Time card id</th>
+                  <th>Employee Id</th>
+                  <th>Issue  Date</th>
+                  <th>Date Performance</th>
+                  <th>Project Id</th>
+                  <th>Work Description</th>
+               </tr>
+               {{range .TimeCard}}
+               <tr>
+                  <td> {{ .TimeCardId }}</td>
+                  <td>{{ .EmployeeIdT}}</td>
+                  <td> {{ .DateIssue}}</td>
+                  <td>{{ .DatePerform}}</td>
+                  <td>{{ .ProjectIdT}}</td>
+                  <td>{{ .WorkDescription}}</td>
+                 
+                </tr>
+                {{end}}
+         </table>
+         <table class="table shadow ">
+           
+         <table class="table shadow ">
+            <h1>Client</h1>
+               <tr>
+                  <th>Client Id</th>
+                  <th>Address</th>
+                  <th>Company Name</th>
+                  <th>Country</th>
+                  <th>Phone Number</th>
+                  <th>Client Name</th>
+                  <th>Project Description </th>
+               </tr>
+               {{range .Client}}
+               <tr>
+                  <td> {{ .ClientId }}</td>
+                  <td>{{ .Address}}</td>
+                  <td> {{ .CompanyName}}</td>
+                  <td>{{ .Country}}</td>
+                  <td>{{ .PhoneNumber}}</td>
+                  <td>{{ .ClientName}}</td>
+                  <td>{{ .ProjectDes}}</td>
+                 
+                </tr>
+                {{end}}
+         </table>
+         <table class="table shadow ">
+            <h1>Payment </h1>
+               <tr>
+                  <th>Payment Id</th>
+                  <th>Project Id</th>
+                  <th>Ammount</th>
+                  <th>Credit Card</th>
+                  <th>Client Id</th>
+                  
+               </tr>
+               {{range .Payment}}
+               <tr>
+                  <td> {{ .PaymentId }}</td>
+                  <td>{{ .ProjectId}}</td>
+                  <td> {{ .Ammount}}</td>
+                  <td>{{ .CreditCard}}</td>
+                  <td>{{ .ClientIDP}}</td>
+                  
+                </tr>
+                {{end}}
+         </table>
+
+        
+        {{ end }}
+
+
+<footer>
+    <div>
+        <ul class="top-footer">
+            <a href="/">
+                <li>About us</li>
+            </a>
+            <a href="/">
+                <li>FAQ</li>
+            </a>
+            <a href="/">
+                <li>Contacts</li>
+            </a>
+        </ul>
+    </div>
+    <div>
+        <ul class="bottom-footer">
+            <li>&copy Torgyn Muratovna</li>
+            <li>&copy Muslima Abayqyzy</li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>

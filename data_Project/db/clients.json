@@ -1,0 +1,65 @@
+[
+ {
+  "clientId": "2002",
+  "address": "Aksai",
+  "companyName": "Kii",
+  "Country": "London",
+  "phoneNumber": "89632156563",
+  "clientName": "Aruzhan",
+  "projectDes": "web site"
+ },
+ {
+  "clientId": "2001",
+  "address": "Almaty",
+  "companyName": "IITU",
+  "Country": "hdfkds",
+  "phoneNumber": "+77086976337",
+  "clientName": "Akzhol",
+  "projectDes": "web site"
+ },
+ {
+  "clientId": "2000",
+  "address": "Aksai",
+  "companyName": "BBC",
+  "Country": "Almaty",
+  "phoneNumber": "87586931254",
+  "clientName": "Kira",
+  "projectDes": "web app"
+ },
+ {
+  "clientId": "2005",
+  "address": "sdbflksfd",
+  "companyName": "sdrgsfth",
+  "Country": "rshsyrjrt",
+  "phoneNumber": "15962326",
+  "clientName": "erhyrtu",
+  "projectDes": "eryhyj"
+ },
+ {
+  "clientId": "2020",
+  "address": "Furmanova",
+  "companyName": "Niki",
+  "Country": "London",
+  "phoneNumber": "8702515425",
+  "clientName": "Lima",
+  "projectDes": "Application"
+ },
+ {
+  "clientId": "2021",
+  "address": "Nazarbayeva 12",
+  "companyName": "Kulikovsky",
+  "Country": "Almaty",
+  "phoneNumber": "87475013356",
+  "clientName": "Laura",
+  "projectDes": "Video Project"
+ },
+ {
+  "clientId": "2023",
+  "address": "Aksai",
+  "companyName": "BBC",
+  "Country": "Almaty",
+  "phoneNumber": "15962326",
+  "clientName": "Aizhan",
+  "projectDes": "web app"
+ }
+]
